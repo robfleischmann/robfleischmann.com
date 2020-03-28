@@ -1,7 +1,8 @@
-#### Hello, my name is Rob Fleischmann and I've been a web developer for over 15 years.
-#### I've seen a lot of technology change over the years, and one I am particularily interested in is React.
-#### My website is a React + Redux + Bootstrap project, and one I hope can be useful if you are learning React yourself.
-#### Below you can get more details on technologies I used, etc. Enjoy!
+# Project for Robfleischmann.com
+Hello, my name is Rob Fleischmann and I've been a web developer for over 15 years.
+I've seen a lot of technology change over the years, and one I am particularly interested in is React.
+My website is a React + Redux + Bootstrap project, and one I hope can be useful if you are learning React yourself.
+
 ---
 
 ### This project is based on the following technologies, follow the links to get more information

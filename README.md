@@ -8,8 +8,9 @@ My website is a React + Redux + Bootstrap project, and one I hope can be useful 
 ### This project is based on the following technologies, follow the links to get more information
 
 - The project was initially setup using the [Create React App](https://github.com/facebook/create-react-app)
-- [React](https://reactjs.org/) + [Redux](https://redux.js.org)
+- [React](https://reactjs.org/)
 - Bootstrap support by [reactstrap](https://reactstrap.github.io)
+- [Axios](https://github.com/axios/axios)
 
 ### Learn More
 

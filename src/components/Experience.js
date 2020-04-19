@@ -12,8 +12,8 @@ class Experience extends Component {
                 developer, however I can easily switch to assisting with managing projects, leading a team or building sprints in tools like Azure DevOps.</p>
                 <hr className="primary mb-5" />
             </div>
-            <div className="row no-gutters">
-              <div className="col-md-5 col-xs-12">
+            <div className="row">
+              <div className="col-md-6 col-xs-12">
                 <div className="card card-transparency">
                   <div className="card-header">
                     Programming Languages
@@ -35,8 +35,7 @@ class Experience extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-md-2 col-xs-12"></div>
-              <div className="col-md-5 col-xs-12">
+              <div className="col-md-6 col-xs-12">
                 <div className="card card-transparency">
                   <div className="card-header">
                     Database / Reporting
@@ -58,8 +57,8 @@ class Experience extends Component {
               </div>
             </div>
             <div className="row"><div className="col-md-12">&nbsp;</div></div>
-            <div className="row no-gutters">
-              <div className="col-md-5 col-xs-12">
+            <div className="row">
+              <div className="col-md-6 col-xs-12">
                 <div className="card card-transparency">
                   <div className="card-header">
                     Version Control
@@ -73,8 +72,7 @@ class Experience extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-md-2 col-xs-12"></div>
-              <div className="col-md-5 col-xs-12">
+              <div className="col-md-6 col-xs-12">
                 <div className="card card-transparency">
                   <div className="card-header">
                     Misc Skills
@@ -91,7 +89,10 @@ class Experience extends Component {
             <div className="text-center">
               <br />
               <hr className="primary mb-5" />
-              <p className="lead m-0">Please <Link className="text-white" to="/contact">contact me</Link> if you would like my full resume along with any references.</p>                
+              <p className="lead m-0">
+                Please <Link className="text-white" to="/contact">contact me</Link> if you would like my full resume along with any references.
+                You are also welcome to visit my <a className="text-white" href="https://github.com/robfleischmann">GitHub site</a>.
+              </p>                
             </div>
         </div>
       </section>

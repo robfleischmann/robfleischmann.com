@@ -95,9 +95,6 @@ class Contact extends Component {
             </div>
           </div>
         </div>
-        <div className="masthead-scroll">
-          <a className="masthead-scroll-btn js-scroll-trigger" href="#page-bottom"><i className="fas fa-angle-down"></i></a>
-        </div>
       </header>
     );
   }

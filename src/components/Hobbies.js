@@ -46,7 +46,7 @@ class Hobbies extends Component {
                   <div className="col-md-8">
                     <p>
                       I have always had a passion for taking a good shot, I even took classes at the Florida Museum of Photograpic Arts to increase my skill.
-                      <br />You can find me at <a href="https://500px.com/bboombotz" target="_blank" rel="noopener noreferrer" className="text-white">500px</a>
+                      <br />You can find my work at <a href="https://500px.com/bboombotz" target="_blank" rel="noopener noreferrer" className="text-white">500px</a>
                     </p>
                   </div>
                 <div className="col-md-2"></div>

@@ -28,6 +28,7 @@ class Experience extends Component {
                         <div className="col-md-4">CSS</div>
                         <div className="col-md-4">HTML</div>
                         <div className="col-md-4">JavaScript</div>
+                        <div className="col-md-4">PHP</div>
                         <div className="col-md-4">PL/SQL</div>
                         <div className="col-md-4">React</div>
                         <div className="col-md-4">VB.Net</div>

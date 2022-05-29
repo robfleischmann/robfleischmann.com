@@ -10584,8 +10584,8 @@ hr.small {
 
 .masthead {
   position: relative;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.7))), url("/assets/img/bg-masthead.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("/assets/img/bg-masthead.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.7))), url("../public/assets/img/bg-masthead.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../public/assets/img/bg-masthead.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: scroll;
@@ -10714,8 +10714,8 @@ hr.small {
 
 .callout {
   padding: 6.25rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.8))), url("/assets/img/bg-callout.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("/assets/img/bg-callout.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.8))), url("../public/assets/img/bg-callout.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("../public/assets/img/bg-callout.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: scroll;
@@ -10741,8 +10741,8 @@ hr.small {
 
 .hobbies {
   padding: 6.25rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.7))), url("/assets/img/bg-camera.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("/assets/img/bg-camera.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.7))), url("../public/assets/img/bg-camera.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../public/assets/img/bg-camera.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: scroll;
@@ -10828,22 +10828,7 @@ hr.small {
 .carousel-portfolio .slick-arrow.slick-next {
   left: 0;
 }
-.carousel-portfolio .first-item {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url("/assets/img/portfolio/carousel/item-1-bg.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("/assets/img/portfolio/carousel/item-1-bg.jpg");
-}
-.carousel-portfolio .second-item {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url("/assets/img/portfolio/carousel/item-2-bg.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("/assets/img/portfolio/carousel/item-2-bg.jpg");
-}
-.carousel-portfolio .third-item {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url("/assets/img/portfolio/carousel/item-3-bg.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("/assets/img/portfolio/carousel/item-3-bg.jpg");
-}
-.carousel-portfolio .fourth-item {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url("/assets/img/portfolio/carousel/item-4-bg.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("/assets/img/portfolio/carousel/item-4-bg.jpg");
-}
+
 @media (min-width: 768px) {
   .carousel-portfolio .carousel-portfolio-item {
     height: calc(100vh - 66px);
@@ -10855,26 +10840,6 @@ hr.small {
   .carousel-portfolio .carousel-portfolio-item .device-wrapper {
     padding: 0 2rem;
   }
-}
-
-#portfolio-modal-1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url("/assets/img/portfolio/carousel/item-1-bg.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("/assets/img/portfolio/carousel/item-1-bg.jpg");
-}
-
-#portfolio-modal-2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url("/assets/img/portfolio/carousel/item-2-bg.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("/assets/img/portfolio/carousel/item-2-bg.jpg");
-}
-
-#portfolio-modal-3 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url("/assets/img/portfolio/carousel/item-3-bg.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("/assets/img/portfolio/carousel/item-3-bg.jpg");
-}
-
-#portfolio-modal-4 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url("/assets/img/portfolio/carousel/item-4-bg.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("/assets/img/portfolio/carousel/item-4-bg.jpg");
 }
 
 .portfolio-modal {
@@ -11081,8 +11046,8 @@ form .row:first-child .floating-label-form-group {
 
 .footer {
   padding: 6.25rem 0 2rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.85))), url("/assets/img/bg-footer.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.85)), url("/assets/img/bg-footer.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.85))), url("../public/assets/img/bg-footer.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.85)), url("../public/assets/img/bg-footer.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: scroll;

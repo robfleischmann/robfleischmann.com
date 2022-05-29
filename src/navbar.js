@@ -69,7 +69,6 @@ class Navbar extends Component {
                             <li className="nav-item"><Link onClick={this.handleMobileMenuLinks} className="nav-link js-scroll-trigger" to="/">About</Link></li>
                             <li className="nav-item"><Link onClick={this.handleMobileMenuLinks} className="nav-link js-scroll-trigger" to="/experience">Experience</Link></li>
                             <li className="nav-item"><Link onClick={this.handleMobileMenuLinks} className="nav-link js-scroll-trigger" to="/hobbies">Hobbies</Link></li>
-                            <li className="nav-item"><Link onClick={this.handleMobileMenuLinks} className="nav-link js-scroll-trigger" to="/contact">Contact</Link></li>
                         </ul>
                     </div>
                 </div>

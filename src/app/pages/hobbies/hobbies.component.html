@@ -1,0 +1,48 @@
+<div class="containerdiv">
+  <div class="div-center w-75 text-center">
+    <h1 class="page-section-heading text-uppercase text-shadow">My Hobbies</h1>
+    <p class="lead m-0 text-shadow pb-2">I enjoy various creative hobbies as I feel it is important to keep that part of the mind active. These hobbies include:</p>
+    <hr class="separator w-100" />
+    <div class="pt-2">
+      <div class="example-action-buttons">
+        <button mat-button (click)="accordion.openAll()">Expand All</button>
+        <button mat-button (click)="accordion.closeAll()">Collapse All</button>
+      </div>
+      <mat-accordion class="example-headers-align" multi>
+        <mat-expansion-panel class="panel-transparency">
+          <mat-expansion-panel-header class="panel-header">
+            <mat-panel-title>
+              Graphics Design
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <p class="panel-text text-shadow pt-3">
+            My first introduction to graphics creation was back in the early 2000s, a gaming forum member taught me how to build wallpapers using layers and masks.
+            I continued learning various techniques and eventually got Adobe Photoshop (I had been using Paint Shop Pro).
+          </p>
+        </mat-expansion-panel>
+        <mat-expansion-panel class="panel-transparency">
+          <mat-expansion-panel-header class="panel-header">
+            <mat-panel-title>
+              Film Making
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <p class="panel-text text-shadow pt-3">
+            I ran a film company quite a few years ago, but I am still connected to many here in the Tampa Bay area and assist with projects or join film competitions.
+            My role with the company was Director of Photography but I also was the main editor of our films. We used Adobe Premiere and I started to also dabble with
+            Adobe After Effects. 
+          </p>
+        </mat-expansion-panel>
+        <mat-expansion-panel class="panel-transparency">
+          <mat-expansion-panel-header class="panel-header">
+            <mat-panel-title>
+              Photography
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <p class="panel-text text-shadow pt-3">
+            I have always had a passion for taking a good shot, I even took classes at the Florida Museum of Photograpic Arts to increase my skill.
+            <br />You can find my work at <a href="https://500px.com/bboombotz" target="_blank" class="link-text-white">500px</a>
+          </p>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+</div>

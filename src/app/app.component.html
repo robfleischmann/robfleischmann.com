@@ -1,0 +1,35 @@
+<mat-toolbar class="mat-elevation-z6 mytoolbar">
+  <button mat-icon-button class="sidenavhideshow" (click)="collapsed.set(!collapsed())">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <button mat-icon-button class="toolbarmenu" [matMenuTriggerFor]="menu">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <mat-nav-list>
+      <a 
+        mat-list-item 
+        class="menu-item"
+        *ngFor="let item of menuItems()" 
+        [routerLink]="item.route"
+      >
+        <mat-icon material-icons matListItemIcon>{{ item.icon }}</mat-icon>
+        <span matListItemTitle >{{ item.label }}</span>
+      </a>
+    </mat-nav-list>
+  </mat-menu>
+  <img width="32" class="pr-2 menuimage" src="/assets/profilepic.png" />
+  <span>Rob Fleischmann</span>
+  <span class="spacer"></span>
+  <a class="link-text-white" target="_blank" href="https://www.linkedin.com/in/robfleischmann"><i class="fa-brands fa-linkedin headericon"></i></a>
+  <div class="pl-4"></div>
+  <a class="link-text-white" target="_blank" href="https://github.com/robfleischmann"><i class="fa-brands fa-github headericon"></i></a>
+</mat-toolbar>
+<mat-sidenav-container>
+  <mat-sidenav opened mode="side" [style.width]="sidenavWidth()" class="mysidenav">
+    <app-mysidenav [collapsed]="collapsed()"></app-mysidenav>
+  </mat-sidenav>
+  <mat-sidenav-content class="content" [style.margin-left]="sidenavWidth()">
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

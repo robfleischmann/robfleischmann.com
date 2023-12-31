@@ -36,15 +36,6 @@ export type MenuItem = {
 export class AppComponent {
   collapsed = signal(false);
   isMobileView = signal(false);
-  @HostListener('window:load', ['$event'])
-  onWindowLoad() {
-    if (window.innerWidth < 500) {
-      this.isMobileView.set(true);
-    }
-    else {
-      this.isMobileView.set(false);
-    }
-  };
   @HostListener('window:resize', ['$event'])
   onWindowResize() {
     if (window.innerWidth < 500) {
@@ -54,6 +45,10 @@ export class AppComponent {
       this.isMobileView.set(false);
     }
   };
+
+  ngAfterViewInit() {
+    this.onWindowResize();
+  }
 
   sidenavWidth = computed(() => this.isMobileView()? '0' : this.collapsed()? '65px' : '250px');
 
